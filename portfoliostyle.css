@@ -138,4 +138,14 @@ using while making this Portfolio*/
 }
 ::-webkit-scrollbar-track{
     background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: black;
 }
