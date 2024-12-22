@@ -149,7 +149,31 @@ using while making this Portfolio*/
     gap: 10em;
     background: black;
 }
+.about-p{
+    color:white;
+}
 
 /*Need to add more space in the navigation bar and to change
 the color of the words*/
 /*Need to think about the pitcure and maybe change it*/
+
+.about-img img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+    border-radius: 50%;
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+}
+.about-content h3{
+    color: white;
+    font-size: 62px;
+}
+.about-content h2{
+    color: white;
+    font-size: 20px;
+}
