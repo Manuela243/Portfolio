@@ -5,6 +5,24 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
+    outline: none;
+}
+
+/*From another source I added scroll-behaviour and outline*/
+
+:root {
+    --bg-color: #001;
+    --second-bg-color: #112;
+    --text-color: #fff;
+    --main-color: #FF6347;
+}
+/*Using ":root" cause I like when websites change according to the set
+theme on persons computer/mobile*/
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
 }
 .header{
     position: fixed;
@@ -12,7 +30,7 @@
     left: 0;
     width: 100%;
     padding: 35px 12%;
-    background: rgba(0, 0, 0, 0.8);
+    background: var(--bg-color);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -36,7 +54,7 @@ span{
 }
 .navbar{
     font-size: 18px;
-    color: ; /*color?*/
+     /*color?*/
     font-weight: 500;
     margin: 0 20px;
     border-bottom: 3px solid transparent;
