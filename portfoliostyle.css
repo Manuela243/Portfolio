@@ -36,7 +36,7 @@ span{
 }
 .navbar{
     font-size: 18px;
-    color: white;
+    color: ; /*color?*/
     font-weight: 500;
     margin: 0 20px;
     border-bottom: 3px solid transparent;

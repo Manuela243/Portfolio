@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Manuela Lončarić - Portfolio</title>
     <link rel="stylesheet" href="portfoliostyle.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+<!--Header section - contains logo and navigation bar-->
+
     <header class="header">
-        <a href="#" class="logo">Manu<span>ela</span></a>
+        <a href="home" class="logo">Manuela</a>
 
         <nav class="navbar">
-            <a href="#" class="active">Portfolio</ahref>
-            <a href="#">Services</ahref>
-            <a href="#">Experience</ahref>
-            <a href="#">Projects</ahref>
-            <a href="#">Education</ahref>
+            <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="portfolio">Portfolio</a></li>
+            </ul>
         </nav>
-        <a href="#" class="contact">Contact Me</a>
+
+<!--In the first part of building, I used only "nav", now using a different
+source I am combining "nav" with "ul + li", since "nav" is good for SEO, since
+it indicates a set of links, while using "ul" inside it gives a good structure
+of the list-->
+
+        <a href="contact" class="contact">Contact Me</a>
     </header>
-    <section class="home">
+    <section id="home" class="home">
         <div class="home-content">
             <h3>Hi there, I am</h3>
             <h1><span>Frontend</span> enthusiast</h1>
@@ -40,6 +48,7 @@
                 <img src="slika.jpg" alt="photo of me">
             </div>
     </section>
+   <section id="Portfolio">
     <section class="about">
         <div class="about-img">
             <img src="slika.jpg" alt="my pitcure">
@@ -56,6 +65,7 @@
                 help me become better.
             </p>
         </div>
+    </section>
     </section>
     <section class="contact-form">
         <h2 class="contact-me"> <span>Contact</span> Me</h2>
