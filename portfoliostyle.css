@@ -58,22 +58,28 @@ header {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }  
-
-.logo:hover{  /*Think about the hover thing, I like it maybe just change of color*/
+/*
+.logo:hover{  
     color: white;
     text-shadow: 0 0 25px white,
                  0 0 25px white;
     transform: scale(1.1);
 }
-
-span{ /*It works on the Frontend, check out possible changes*/
-    color: var(--main-color);
-}
+*/ /*Think about the hover thing, I like it maybe just change of color*/
 .navbar{
     display: flex; /*Only thing they added that is new*/
 }
+
+.navbar a {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
 .navbar a:hover,
-.navbar.active {
+.navbar a.active {
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
 }
@@ -83,17 +89,26 @@ span{ /*It works on the Frontend, check out possible changes*/
     color: var(--main-color);
     cursor: pointer; /*If I add display:none I lose the menu icon, but that is what they use in example, need to check out why it does not work on mine*/
 }
-.contact {
-    padding: 10px 28px;
-    background-color: white;
-    color: black;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    font-size: 16px;
-    letter-spacing: 1px;
+
+.nav-btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: transparent;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
     font-weight: 600;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
+
+.nav-btn:hover{
+    background: var(--main-color);
+    color: var(--text-color);
+    box-shadow: 0 0 20px var(--main-color);
+    transform: scale(1.05);
+}
+/*
 .contact:hover{
     background-color: orangered;
     box-shadow: 0 0 25px orangered;
@@ -164,8 +179,10 @@ span{ /*It works on the Frontend, check out possible changes*/
     border-radius: 50%;
     width: 550px;
 }
+*/
 /*Seeing on Youtube video on how to add webkits, which I will be
 using while making this Portfolio*/
+/*
 ::-webkit-scrollbar{
     width: 15px;
 }
@@ -188,11 +205,11 @@ using while making this Portfolio*/
 .about-p{
     color:white;
 }
-
+*/
 /*Need to add more space in the navigation bar and to change
 the color of the words*/
 /*Need to think about the pitcure and maybe change it*/
-
+/*
 .about-img img{
     position: relative;
     width: 550px;
@@ -311,3 +328,4 @@ the color of the words*/
     font-size: 12px;
     color: white;
 }
+*/
