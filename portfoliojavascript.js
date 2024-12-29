@@ -11,3 +11,13 @@ window.onscroll = () => {
     navbar.classList.remove("active");
 }
 
+// Typing Text Code
+
+const typed = new Typed(".multiple-text", {
+    strings: ["Frontend developer", "Self-taught"],
+    typeSpeed: 60,
+    backSpeed: 60,
+    backDelay: 1600,
+    loop: true, 
+}); //Code got on GitHub profile from mattboldt
+
