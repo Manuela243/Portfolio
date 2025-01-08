@@ -19,14 +19,12 @@
 
 ### Screenshot
 
-[![portfolio.png][![Snimka-zaslona-56.png](https://i.postimg.cc/mZ09tsS1/Snimka-zaslona-56.png)](https://postimg.cc/14rXjb2y)
+[![Snimka-zaslona-56.png](https://i.postimg.cc/mZ09tsS1/Snimka-zaslona-56.png)](https://postimg.cc/14rXjb2y)
 
 ### Links
 
   - Live Site URL:(https://raw.githack.com/Manuela243/portfolio/main/Portfolio.html)
     
-I will be using:
-
 ## My process
 
 ### Built with
@@ -47,7 +45,7 @@ I will be using:
 
  - [Youtube video](https://www.youtube.com/watch?v=rAUBCStBIhE)
  - [Youtube video](https://www.youtube.com/watch?v=vHxVWdMUYo0&t=3s)
- - [Get your live page url] (https://raw.githack.com/)
+ - (https://raw.githack.com/) Page to get live versions url for your webpages
 
 ## Author
  - Website - [Manuela Lončarić](https://github.com/Manuela243)
