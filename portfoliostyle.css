@@ -356,12 +356,12 @@ style better*/
 /*Contact*/
 
 .email{
-    margin-left: 15px;
+    margin: 3rem 1.5rem 3rem 0;
     font-size: 16px;
+    text-align: center;
 }
 
 .email h3{
-    margin-left: 72px;
     padding-bottom: 5px;
 }
 
@@ -371,11 +371,10 @@ style better*/
 
 .gmail-icon{
     background-color: white;
-    text-align: center;
     border: 15px hidden;
     border-radius: 35px;
     width: 50px;
-    margin-left: 72px;
+    max-width: 50px;
 }
 
 /*Responsive Web Deign - for my webpage to look good on all devices*/
