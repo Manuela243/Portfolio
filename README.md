@@ -19,15 +19,12 @@
 
 ### Screenshot
 
-[![portfolio.png][![Snimka-zaslona-56.png](https://i.postimg.cc/mZ09tsS1/Snimka-zaslona-56.png)](https://postimg.cc/14rXjb2y)
+[![Snimka-zaslona-56.png](https://i.postimg.cc/mZ09tsS1/Snimka-zaslona-56.png)](https://postimg.cc/14rXjb2y)
 
 ### Links
 
-  - Solution URL:()
-  - Live Site URL:()
+  - Live Site URL:(https://raw.githack.com/Manuela243/portfolio/main/Portfolio.html)
     
-I will be using:
-
 ## My process
 
 ### Built with
@@ -42,11 +39,13 @@ I will be using:
 2. That comments inside the code can be used to navigate through the code, and that they have a higher use than just being comment, they can tell others what is it in that section (used both in HTML, CSS and Javascript).
 3. Got introduced on how to use Responsive Web Design.
 4. Learned how to use root: (for easier and faster coding you use it to set default colors and more that you will later use with var())
+5. Used *raw.githack.com* to get an url for my live page.
 
 ### Useful resources
 
  - [Youtube video](https://www.youtube.com/watch?v=rAUBCStBIhE)
  - [Youtube video](https://www.youtube.com/watch?v=vHxVWdMUYo0&t=3s)
+ - (https://raw.githack.com/) Page to get live versions url for your webpages
 
 ## Author
  - Website - [Manuela Lončarić](https://github.com/Manuela243)
