@@ -23,7 +23,7 @@
 
 ### Links
 
-  - Live Site URL:(https://raw.githack.com/Manuela243/portfolio/main/Portfolio.html)
+  - Live Site URL:(portfolio-b93ohbvho-manuela243s-projects.vercel.app)
     
 ## My process
 
@@ -39,13 +39,12 @@
 2. That comments inside the code can be used to navigate through the code, and that they have a higher use than just being comment, they can tell others what is it in that section (used both in HTML, CSS and Javascript).
 3. Got introduced on how to use Responsive Web Design.
 4. Learned how to use root: (for easier and faster coding you use it to set default colors and more that you will later use with var())
-5. Used *raw.githack.com* to get an url for my live page.
+5. Used *vercel* for my web page to be constantly in live version.
 
 ### Useful resources
 
  - [Youtube video](https://www.youtube.com/watch?v=rAUBCStBIhE)
  - [Youtube video](https://www.youtube.com/watch?v=vHxVWdMUYo0&t=3s)
- - (https://raw.githack.com/) Page to get live versions url for your webpages
 
 ## Author
  - Website - [Manuela Lončarić](https://github.com/Manuela243)
