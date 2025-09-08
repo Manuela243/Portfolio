@@ -58,14 +58,7 @@ header {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }  
-/*
-.logo:hover{  
-    color: white;
-    text-shadow: 0 0 25px white,
-                 0 0 25px white;
-    transform: scale(1.1);
-}
-*/ /*Think about the hover thing, I like it maybe just change of color*/
+
 .navbar{
     display: flex; /*Only thing they added that is new*/
 }
@@ -266,7 +259,64 @@ p .about-paragraph{
     background-color: var(--main-color);
     width: 50px;
 }
+/*Portfolio section*/
+.portfolio {
+    background: var(--bg-color);
+}
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+}
 
+.row {
+    background: var(--second-bg-color);
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.row img {
+    height: auto;
+    width: 100%;
+    border-radius: 28px;
+    margin-bottom: 1.4rem;
+}
+
+.main-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.row h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.row i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    font-size: 27px;
+    border-radius: 50%;
+    color: var(--text-color);
+    background: #FF6347
+}
+
+.row:hover {
+    border: 1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.03);
+    cursor: pointer;
+}
 /*Contact section*/
 
 .contact{
@@ -311,6 +361,7 @@ p .about-paragraph{
 
 .contact form .btn{
     margin-top: 2rem;
+    cursor: pointer;
 }
 /*Footer section*/
 
