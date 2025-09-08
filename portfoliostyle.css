@@ -252,6 +252,10 @@ style better*/
     margin: 2rem 0 3rem;
 }
 
+p .about-paragraph{
+   margin: auto 10px;
+}
+
 /*ScrollBar Design*/
 
 ::-webkit-scrollbar {
