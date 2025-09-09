@@ -363,6 +363,34 @@ p .about-paragraph{
     margin-top: 2rem;
     cursor: pointer;
 }
+
+/*Alert section*/
+
+.notice {
+    display: none;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    font-family: Arial, sans-serif;
+    animation: fadeIn 0.5s ease-in-out;
+    font-size: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /*Footer section*/
 
 .footer{

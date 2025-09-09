@@ -22,5 +22,13 @@ const typed = new Typed(".multiple-text", {
 }); //Code got on GitHub profile from mattboldt
 
 function showNotice() {
-    alert("Sorry, this function does not work yet :(. \nFeel free to contact me via email that you can find down below! :D ");
-    }
+    document.getElementById("notice").style.display = "block";
+}
+  
+function downloadCV() {
+    // Google Drive direct download link
+    const url = "https://drive.google.com/uc?export=download&id=1JjnAP3EzmuwXL5UdZeTGsK45j_x1Ycyg";
+    
+    // Open link in new tab to trigger download
+    window.open(url, "_blank");
+  }

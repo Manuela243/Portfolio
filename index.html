@@ -33,9 +33,9 @@
             <h3>Hi there, I am</h3>
             <h1><span class="multiple-text"></h1>
             <p>My name is Manuela. I am 26 years old and I come from Koprivnica, currently situated in Varaždin.
-                I am a <b>self-taught</b> developer. I can not wait to see what I can become, how far I can go. My interest
-                in computers and they way they work comes from young age, and now I am absolutely sure I wish to be a part of the process!
-                PS. When I code I love listening to Skyrim music, makes me feel like a true warrior!
+                I am a <span style="color:rgb(246, 122, 122); font-weight: bold;">self-taught</span> developer. <p>I can not wait to see what I can become, how far I can go. My interest
+                in computers and they way they work comes from young age, and now I am absolutely sure I wish to be a part of the process!</p>
+                <p>PS. When I code I love listening to <b style="color: rgb(246, 122, 122);">Skyrim music</b>, makes me feel like a true warrior!</p>
             </p>
             <a href="#about" class="btn">Read More</a>
             </div>
@@ -57,9 +57,13 @@
                 I’ve completely fallen for: coding and web development. 💻</p>
                 
                 <p class="about-paragraph">Even though I don’t come from a technical background, that hasn’t held me back. If anything, it’s pushed me to dive in
-                even deeper. I’ve been teaching myself the basics—HTML, CSS, and JavaScript 🧱🎨⚡️—and the more I learn, the more
+                even deeper. I’ve been teaching myself the basics— <span>HTML, CSS</span> and <span>JavaScript</span> 🧱🎨⚡️—and the more I learn, the more
                 excited I get about where this could go.</p>
-                
+
+                <p class="about-paragraph">Currently learning <span>Python</span> because my interest lies in <span>Machine learning</span> as well!</p>
+
+                <p class="about-paragraph">Not only that, I am interested in mobile development and I find <b>Kotlin</b> for Android and <b>Swift</b> for IOS.</p>
+
                 <p class="about-paragraph">I’m full of ideas 💡, but I know ideas need more than passion—they need support, guidance, and knowledge to come to
                 life. That’s why I’m looking to grow in an environment where I can learn from experienced developers, be mentored, and
                 keep challenging myself every day. You can’t build something great alone—and I’m ready to be part of a team that helps
@@ -68,7 +72,7 @@
                 <p class="about-paragraph">For me, every project is a chance to get better, to explore new ways of thinking, and to bring something meaningful into
                 the world. I can’t wait to see where this journey takes me—and I’m all in. 💪✨
                 </p>
-                <a href="#" class="btn">Download CV</a>
+                <a href="https://drive.google.com/file/d/1JjnAP3EzmuwXL5UdZeTGsK45j_x1Ycyg/view?usp=sharing" class="btn" target="_blank" onclick="downloadCV()">Download CV</a>
                 
             </div>
         
@@ -112,6 +116,9 @@
         <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
         
         <button type="button" class="btn" onclick="showNotice()">Send Message</button>
+        <div id="notice" class="notice">
+            <p>⚠️ Sorry, this function does not work yet. Feel free to contact me via email down below :D</p>
+        </div>
     </form>
 </section>
 
