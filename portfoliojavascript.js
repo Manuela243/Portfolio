@@ -21,3 +21,6 @@ const typed = new Typed(".multiple-text", {
     loop: true, 
 }); //Code got on GitHub profile from mattboldt
 
+function showNotice() {
+    alert("Sorry, this function does not work yet :(. \nFeel free to contact me via email that you can find down below! :D ");
+    }
