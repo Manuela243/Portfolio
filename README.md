@@ -40,6 +40,8 @@
 3. Got introduced on how to use Responsive Web Design.
 4. Learned how to use root: (for easier and faster coding you use it to set default colors and more that you will later use with var())
 5. Used *vercel* for my web page to be constantly in live version.
+6. Added a picture with link that takes you to one of my projects
+7. Did <b>button</b> in the way it does not function to try out different problems you can incounter (such as a button that does not work using javascript) and how to write them inside code
 
 ### Useful resources
 
